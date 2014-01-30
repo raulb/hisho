@@ -1,4 +1,7 @@
-# collaborative-markdown
+## hisho 秘書
+
+
+Inspired by [@joeyb/collaborative-markdown](https://github.com/joeyb/collaborative-markdown):
 
 A collaborative Markdown editor built on Derby.js.
 
