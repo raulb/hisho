@@ -13,3 +13,28 @@ There is some cleanup/styling work that would need to be done to turn this into 
 as-is the editor functionality works and all documents are automatically saved.
 
 There is a demo hosted here: http://boiling-ocean-9398.herokuapp.com/
+
+### Installing Locally
+
+Make sure you're using the [latest version of Node](http://what-is-the-latest-version-of-node.com/):
+
+```
+$ sudo npm cache clean -f
+$ sudo npm install -g n
+$ sudo n stable
+```
+
+You're running Mongodb:
+
+```
+$ brew install mongodb --with-openssl
+$ mongod &
+```
+
+Let's start:
+
+```
+$ foreman start
+```
+
+
